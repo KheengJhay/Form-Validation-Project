@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css" />
+    </head>
+    <body>
+    <div class="container">
+        <form action="">
+        <div class="img-container">
+            <i class="fa fa-user-circle"></i>
+        </div>
+        <label for="uname">Username <i class="fa fa-user"></i></label>
+        <input type="text" id="uname" name="username" value="">
+        <div id="warning-name"></div>
+        <label for="pword">Password <i class="fa fa-lock"></i></label>
+        <div id="warning-pword"></div>
+        <input type="password" id="pword" name="pword" value="">
+        <div class="btn-container">
+            <input type="button" id="sub-btn" value="Log In"></input> 
+        </div>
+        </form>
+        <button class="toggle-password" id="togg-pword"><i class="fa fa-eye" style="font-size: 20px;"></i></button >
+        <div id="display-info"></div>
+    </div>
+    <script src="index.js"></script>
+    </body>
+</html>
